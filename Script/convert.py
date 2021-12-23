@@ -1,4 +1,3 @@
-
 # Python program to modify HTML
 # with the help of Beautiful Soup
 
@@ -12,20 +11,23 @@ def convert(file):
     with open(file, 'r',encoding='GB2312', errors='ignore') as file_1:
         soup = BeautifulSoup(file_1, features='lxml')
         file_1.close()
-        metatag = soup.new_tag('meta')
-        metatag.attrs['http-equiv'] = 'Content-Type'
-        metatag.attrs['content'] = 'text/html;charset=utf-8'
-        soup.head.append(metatag)
-    
-    with open(file, 'w') as file_1:
-        file_1.write(soup.prettify())
+        
+        if soup.find("meta", content='text/html;charset=utf-8')==None:
+            metatag = soup.new_tag('meta')
+            metatag.attrs['http-equiv'] = 'Content-Type'
+            metatag.attrs['content'] = 'text/html;charset=utf-8'
+            soup.head.append(metatag)
+            cap = soup.find("caption")
+            if cap != None:
+                cap.name = "p"
+            
+            with open(file, 'w') as file_1:
+                file_1.write(soup.prettify())
 
-#os.chdir(base)
 base = "/Users/feizheng/Documents/GitHub/coachfei.github.io/liaoning2021/"
 os.chdir(base)
 for root, dirs, files in os.walk(base):
     for name in files:
-        print(name)
         base,ext = os.path.splitext(name)
         if ext.lower() == '.htm':
             print(name)
