@@ -24,7 +24,7 @@ def convert(file):
             with open(file, 'w') as file_1:
                 file_1.write(soup.prettify())
 
-base = "/Users/feizheng/Documents/GitHub/coachfei.github.io/2013jp2/"
+base = "/Users/feizheng/Documents/GitHub/coachfei.github.io/2013nc4/"
 os.chdir(base)
 for root, dirs, files in os.walk(base):
     for name in files:
