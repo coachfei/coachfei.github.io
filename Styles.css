@@ -1,0 +1,234 @@
+.PageBody {
+	background-color:#EEEEEE;
+	text-align:center;
+}
+
+.MainTab {
+	width:800;
+	background-color:#EEEEEE;
+	text-align:center;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.TabHeadBlue {
+	line-height:20px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	font-style:normal;
+	background-color:#3333CC;
+	font-weight:bold;
+}
+
+.Line1Blue {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#9999CC;
+}
+
+.Line2Blue {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#CCCCFF;
+}
+
+.TabHeadRed {
+	line-height:20px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	font-style:normal;
+	background-color:#CC3333;
+	font-weight:bold;
+}
+
+.Line1Red {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#CC9999;
+}
+
+.Line2Red {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#FFCCCC;
+}
+
+.TabHeadGreen {
+	line-height:20px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	font-style:normal;
+	background-color:#33CC33;
+	font-weight:bold;
+}
+
+.Line1Green {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#99CC99;
+}
+
+.Line2Green {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#CCFFCC;
+}
+
+.TabHeadYellow {
+	line-height:20px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	font-style:normal;
+	background-color:#FFCC00;
+	font-weight:bold;
+}
+
+.Line1Yellow {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#FFFF40;
+}
+
+.Line2Yellow {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#FFFF99;
+}
+
+.TabHeadWhite {
+	line-height:20px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	font-style:normal;
+	background-color:#EEEEEE;
+	font-weight:bold;
+}
+
+.Line1White {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#EEEEEE;
+}
+
+.Line2White {
+	line-height:18px;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	background-color:#EEEEBB;
+}
+
+.LineBlack {
+	line-height:24px;
+	color:#FFFF00;
+	font-family:Verdana, Arial,sans-serif;
+	font-size:18px;
+	font-style:normal;
+	text-align:center;
+	background-color:#000000;
+}
+
+.CellLeft {
+	text-align:left;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.CellRight {
+	text-align:right;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.Link {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+}
+
+.Caption1 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:26px;
+	font-weight:bold;
+	text-align:center;
+	font-style:normal;
+}
+
+.Caption2 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:24px;
+	text-align:center;
+	font-style:normal;
+}
+
+.Caption3 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:20px;
+	text-align:center;
+	font-style:normal;
+}
+
+.Caption4 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:16px;
+	text-align:center;
+	font-style:italic;
+}
+
+.Caption5 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	font-style:normal;
+}
+
+.Note1 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:12px;
+	text-align:left;
+	padding-left:5px;
+	font-style:normal;
+}
+
+.LastLine {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:10px;
+	text-align:center;
+}
+
+.EmptyLine10 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:10px;
+}
+.EmptyLine14 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:14px;
+}
+.EmptyLine16 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:16px;
+}
+.EmptyLine22 {
+	font-family:Verdana, Arial,sans-serif;
+	font-size:22px;
+}
